@@ -21,7 +21,7 @@ function Home() {
 
     return (
         <div className="container-fluid p-0 home">
-            {/* Hero Section */}
+            
             <section className="hero d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 className="display-3">VJ Hertz</h1>
                 <p className="lead">The Legend Kingpin</p>
@@ -30,7 +30,7 @@ function Home() {
                 </Link>
             </section>
 
-            {/* About Me Section */}
+            
             <section className="about-me d-flex justify-content-center align-items-center">
                 <div className="about-me-content text-center p-5 bg-dark text-white rounded shadow">
                     <h2 className="section-heading">MEET VJ HERTZ</h2>
@@ -54,7 +54,7 @@ function Home() {
                 </div>
             </section>
 
-            {/* Mixes and Edits Section */}
+            
             <section className="mixes-edits text-center my-5">
                 <h2 className="mb-4">Quench Your Music Thirst</h2>
                 <p>Some of our best mixes</p>
@@ -66,7 +66,7 @@ function Home() {
 
             <VideoModal videoUrl={currentVideoUrl} isOpen={modalOpen} onClose={closeModal} />
 
-            {/* Portfolio Section */}
+            
             <section className="portfolio py-5">
   <h2 className="text-center mb-5">Events Gallery</h2>
   <div className="row">
@@ -100,7 +100,7 @@ function Home() {
 
 
 
-            {/* Events Section */}
+           
             <section className="events py-5 bg-dark text-white">
                 <h2 className="text-center mb-5">Upcoming Events</h2>
                 <div className="row">
@@ -140,7 +140,7 @@ function Home() {
                 </div>
             </section>
 
-            {/* News Section */}
+
             <section className="news py-5">
                 <h2 className="text-center mb-5">Latest News</h2>
                 <div className="row">
@@ -161,7 +161,7 @@ function Home() {
                 </div>
             </section>
 
-            {/* Contact Section */}
+            
             <section className="contact py-5 bg-dark text-white">
                 <h2 className="text-center mb-5">Contact Me</h2>
                 <div className="container">
